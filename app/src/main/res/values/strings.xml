@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="strAvailabilityTitle">Select Your Availability</string>
+    <string name="strRefine">Refine</string>
+    <string name="strRefineScreen">Refine Screen</string>
+    <string name="strExploreScreen">Explore Screen</string>
+    <string name="strStatusTitle">Add Your Status</string>
+    <string name="strAddStatusText">Hi community!I am open to new connections</string>
+    <string name="strHyperDistanceTitle">Select Hyper Local Distance</string>
+    <string name="strPurposeTitle">Select Purpose</string>
+    <string name="strCoffee">Coffee</string>
+    <string name="strBusiness">Business</string>
+    <string name="strHobbies">Hobbies</string>
+    <string name="strFriendship">Friendship</string>
+    <string name="strMovies">Movies</string>
+    <string name="strDinning">Dinning</string>
+    <string name="strSaveExplore">Save &amp; Explore</string>
+    <string name="strMatrimony">Matrimony</string>
+    <string name="strDating">Dating</string>
+    <string name="strOneKm">1 Km</string>
+    <string name="str100Km">100 Km</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strInvite">Invite</string>
+    <string name="strSearch">Search</string>
+</resources>

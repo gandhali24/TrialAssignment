@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <!--TextView for displaying Name -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <!--LinearLayout orientation Vertical -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <!--TextView for displaying Name -->
+
+            <Button
+                android:id="@+id/btn_invite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bg_persian"
+                android:textSize="14sp"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:text="@string/strInvite"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="-15dp"
+                android:drawableLeft ="@drawable/baseline_add_12"
+                />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bg_persian"
+                android:textSize="16sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:text="Name" />
+
+
+            <!--TextView for displaying Email -->
+            <TextView
+                android:id="@+id/tv_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/bg_persian"
+                android:textSize="16sp"
+                android:layout_marginStart="25dp"
+                tools:text="Distance" />
+
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progress_indicator"
+                android:indeterminate="false"
+                app:trackThickness="15dp"
+                app:trackCornerRadius="40dp"
+                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"
+                app:indicatorColor="@color/grey_progress_indicator"
+
+                />
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_phoneCall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_phone_call"/>
+                <ImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_profile"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_purpose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bg_persian"
+                android:textSize="16sp"
+                tools:text="Purpose"
+                android:layout_marginTop="25dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bg_persian"
+                android:textSize="16sp"
+                tools:text="Status"
+                android:layout_marginTop="10dp"
+
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
